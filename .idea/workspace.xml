@@ -4,11 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c83d32a7-1271-40b1-bc8c-9b26c7c5b7b4" name="Changes" comment="Build">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Testen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TesteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="c83d32a7-1271-40b1-bc8c-9b26c7c5b7b4" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ADT/Folge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ADT/Puffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ADT/Schlange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ADT/SchlangeMitDynArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ADT/Stapel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinärBäume/Binaerbaum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinärBäume/Suchbaum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Datenstrukturen/DynArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Datenstrukturen/RingPuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/AbstractIntegerBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/Fifo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/IntegerBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/Lifo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Boxer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Kellerspeicher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/KellerspeicherMitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Mensch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Speicher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Warteschlange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/WarteschlangeMitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uebung2/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/EVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/EVLTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/JMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/Joesphus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/RDVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/RDVLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/WarteschlangeMitEVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/WarteschlangeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ADT/TestADTSchalnge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BinärBäume/BBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Datenstrukturen/DynArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Datenstrukturen/RPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Generics/FifoGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Generics/LifoGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Generics/PaarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/FifoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/KellerspeicherG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/KellerspeicherMitArrayG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/Paar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/PaarSpeicher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/SpeicherG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/WarteschlangeG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/WarteschlangeMitArrayG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/LifoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/MenschTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,21 +97,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Liams/IdeaProjects/Prog2Uebungen/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Liams\IdeaProjects\Prog2Uebungen\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Liams\IdeaProjects\Prog2Uebungen\src\main\java" />
     </key>
@@ -141,7 +194,7 @@
       <updated>1651583433367</updated>
       <workItem from="1651583436838" duration="1132000" />
       <workItem from="1651594930189" duration="39000" />
-      <workItem from="1651650450469" duration="1013000" />
+      <workItem from="1651650450469" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="Build">
       <created>1651583578947</created>
@@ -150,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651583578947</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test">
+      <created>1651651487984</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651651487984</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +229,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
