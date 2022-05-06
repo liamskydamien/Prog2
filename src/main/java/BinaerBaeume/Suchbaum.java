@@ -1,4 +1,4 @@
-package BinärBäume;
+package BinaerBaeume;
 
 import java.util.NoSuchElementException;
 
@@ -78,15 +78,59 @@ public class Suchbaum extends Binaerbaum<Integer>{
     }
 
     private void removeRek(int e, Binaerbaum<Integer> baum){
-        if((int) baum.getLeft().get() == e | (int) baum.getRight().get() == e){
+        if(baum.get() == e) {
             if(baum.getLeft().isEmpty() & baum.getRight().isEmpty()){
                 baum.set(null);
             }
+            else if(!baum.getLeft().isEmpty() & baum.getRight().isEmpty()){
+                Binaerbaum<Integer> save = baum.getLeft();
+                remove(save.get());
+                baum.set(save.get());
+            } else if(baum.getLeft().isEmpty() & !baum.getRight().isEmpty()){
+                Binaerbaum<Integer> save = baum.getRight();
+                remove(save.get());
+                baum.set(save.get());
+            }
             else{
-                if(!baum.getLeft().isEmpty() & baum.getRight().isEmpty()){
-                    baum.set();
-                }
+                Binaerbaum<Integer> save = getHighest(baum);
+                remove(save.get());
+                baum.set(save.get());
+            }
+        }
+        else{
+            if(e > baum.get()){
+                removeRek(e, baum.getRight());
+            }
+            else{
+                removeRek(e, baum.getLeft());
             }
         }
     }
+
+    public Binaerbaum getHighest(Binaerbaum<Integer> e){
+        if(e.getRight().isEmpty()){
+            return e;
+        }
+        return getHighestRek(e.getRight(), e);
+    }
+
+    private Binaerbaum getHighestRek(Binaerbaum<Integer> e, Binaerbaum<Integer> current){
+        if(e.isEmpty()){
+            return current;
+        }
+        else{
+            if((int) e.getLeft().get() > current.get()){
+                return getHighestRek(e.getLeft().getRight(), e.getLeft());
+            } else if ((int) e.getRight().get() > current.get()){
+                    return getHighestRek(e.getRight().getRight(), e.getRight());
+            }
+            else if((int) e.get() > current.get()){
+                return e;
+            }
+            else {
+                return current;
+            }
+        }
+    }
+
 }

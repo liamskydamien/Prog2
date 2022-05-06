@@ -1,115 +1,94 @@
 package Datenstrukturen;
-// Disclaimer: Ringpuffer ist derzeit noch Fehlerhaft.
-public class RingPuffer <T>{
-    int size = 0;
-    int first = 0;
-    int last = 0;
+public class RingPuffer<T> {
+    int size = 0; // Anzahl der belegeten Plätze
+    int capazity;
+    int front= 0;
+    int back= 0;
     T[] array;
-
-    public RingPuffer(int capacity){
-        array = (T[]) new Object[capacity];
+    RingPuffer(int capazity){
+        this.capazity = capazity;
+        array = (T[]) new Object[capazity];
     }
-
-    private int capacity(){
-        return array.length;
-    }
-
-
-    public T get(int pos) throws IndexOutOfBoundsException{
-        if(pos >= 0 & pos < size){
+    public boolean isEmpty(){return size == 0? true: false;}
+    public int size(){return size;}
+    public T get(int pos){
+        try {
             return array[pos];
         }
-        else {
-            throw new IndexOutOfBoundsException("Position befindet sich außerhalb der belegten Plätze.");
+        catch (ArrayIndexOutOfBoundsException e){
+            throw new ArrayIndexOutOfBoundsException();
+        }
+        catch (NullPointerException e){
+            throw new NullPointerException();
         }
     }
-
-    public int size(){
-        return size;
-    }
-
-    public void set(int pos, T e) {
-        if(pos >= 0 & pos < size & e != null){
-            array[pos] = e;
-        }
-        else if (e == null){
-            System.out.println("Eingesetztes Element gleich null");
-            return;
-        }
-        else {
-            System.out.println("Index out of Bounds bei set()");
-            return;
+    public T set(int pos, T e){
+        try {
+            T data = array[pos];
+            array[pos] = null;
+            return data;
+        }catch (ArrayIndexOutOfBoundsException a){
+            throw new ArrayIndexOutOfBoundsException();
         }
     }
-    public T getFirst(){
-        return array[first];
-    }
-
-    public T getPos(int pos){
-        return array[pos];
-    }
-
-    public void insert(T e){
-        if(last == capacity()){
-            last = 0;
-        }
-        array[last+1] = e;
-        last++;
-        size++;
-    }
-
-    public T remove(){
-        first++;
-        return array[first -1];
-    }
-
     public void addFirst(T e){
-        if(getFirst() != null){
-            if(first >= 1 & array[first-1] == null){
-                set(first-1, e);
-                first--;
-                size++;
-            } else if (first == 0 & array[last] == null) {
-                set(last, e);
-                first = last;
-                last--;
-                size++;
+        if(size == capazity){
+            throw new ArrayIndexOutOfBoundsException();
+        }
+        try {
+            if(isEmpty()){
+                array[0] = e;
+                ++size;
             }
             else{
-                set(first, e);
+                array[front - 1] = e;
+                front = front - 1;
+                ++size;
             }
+        }catch (ArrayIndexOutOfBoundsException a){
+            array[capazity-1] = e;
+            front = capazity-1;
+            ++size;
         }
-            else{
-                set(first,e);
-            }
-        }
-
+    }
     public void addLast(T e){
-        if(get(last) != null){
-            if(last+1 >= capacity()){
-
+        if(size == capazity){ // ist es voll?
+            throw new ArrayIndexOutOfBoundsException();
+        }
+        try {
+            if (isEmpty()) { // Einfügen des ersten Elements
+                array[0] = e;
+                ++size;
+            }else { // Einfügen von weiteren Elementen
+                array[++back] = e; // ++back -> back wird zuerst erhöht, dann er Zugriff
+                ++size;
             }
+        }catch (ArrayIndexOutOfBoundsException a){ // Falls ++back größer als die eigentliche Kapazität ist
+            array[0] = e; // "Kreis schließen
+            back = 0;
+            ++size;
         }
-        else{
-            set(last, e);
-        }
-    }
 
-    public T removeLast(){
-        T place = array[size-1];
-        array[size-1] = null;
-        size--;
-        return place;
     }
-
     public T removeFirst(){
-        T place = array[first];
-        array[first] = null;
-        first++;
-        if(first == capacity()){
-            first = 0;
+        T data = array[front]; // Daten speichern
+        array[front] = null; // erstes Element löschen
+        front = front+1; // front zeiger auf das nächste element
+        if(front > capazity-1){// überprüfen ob front größer als die Kapazität ist
+            front = 0; // wenn ja wird front auf null gesetzt -> Kreis schließen
         }
-        return place;
+        --size;
+        return data;
     }
-
+    public T removeLast(){
+        T data = array[back];
+        array[back] = null;
+        back = back-1;
+        if(back == -1){ // überprüfen auf back vorher auf die 0. Position gezeigt hat
+            back = 3; // wenn ja , dann ist das nähste back 3
+        }
+        --size;
+        return data;
+    }
 }
+

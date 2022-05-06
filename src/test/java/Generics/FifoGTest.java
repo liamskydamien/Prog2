@@ -111,8 +111,8 @@ public class FifoGTest {
     @Test
     public void testSize(){
         int l = 0;
-        int ö = 0;
-        int ä = 0;
+        int e = 0;
+        int m = 0;
         for (int i: a) {
             f.push(i);
             l++;
@@ -120,13 +120,13 @@ public class FifoGTest {
         }
         for (double i: b) {
             g.push(i);
-            ö++;
-            assertEquals(ö, g.size(), "Anzahl der Elemente ungleich.");
+            e++;
+            assertEquals(e, g.size(), "Anzahl der Elemente ungleich.");
         }
         for (String i: c) {
             h.push(i);
-            ä++;
-            assertEquals(ä, h.size(), "Anzahl der Elemente ungleich.");
+            m++;
+            assertEquals(m, h.size(), "Anzahl der Elemente ungleich.");
         }
     }
 

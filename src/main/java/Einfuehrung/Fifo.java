@@ -1,4 +1,4 @@
-package Einführung;
+package Einfuehrung;
 
 public class Fifo extends AbstractIntegerBuffer implements IntegerBuffer{
 

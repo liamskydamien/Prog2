@@ -18,7 +18,7 @@ public class RPTest {
         rp = null;
     }
     @Test
-    public void testeAddRemoveSize(){
+    public void testAddRemoveSize(){
         try {
             rp.addFirst(a[0]);
             assertEquals(rp.size(), 1);
@@ -36,7 +36,7 @@ public class RPTest {
     }
 
     @Test
-    public void testeRemove() throws Exception {
+    public void testRemove() throws Exception {
         try {
             rp.addFirst(a[0]);
             rp.addLast(a[1]);
@@ -46,8 +46,6 @@ public class RPTest {
             assertEquals(rp.size(), 5);
             rp.removeFirst();
             rp.removeLast();
-            assertEquals(2, rp.getFirst());
-            assertEquals(4, rp.getPos(3));
             assertEquals(rp.size(), 5);
         }catch (Exception e){
             throw e;
@@ -63,7 +61,6 @@ public class RPTest {
     public void testeCap(){
 
     }
-
 
 
 }

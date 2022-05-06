@@ -4,59 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c83d32a7-1271-40b1-bc8c-9b26c7c5b7b4" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ADT/Folge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ADT/Puffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ADT/Schlange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ADT/SchlangeMitDynArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ADT/Stapel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinärBäume/Binaerbaum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinärBäume/Suchbaum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Datenstrukturen/DynArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Datenstrukturen/RingPuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/AbstractIntegerBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/Fifo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/IntegerBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/Lifo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Einführung/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Boxer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Kellerspeicher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/KellerspeicherMitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Mensch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Speicher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/Warteschlange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTests/WarteschlangeMitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Uebung2/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/EVL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/EVLTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/JMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/Joesphus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/RDVL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/RDVLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/TimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/WarteschlangeMitEVL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/WarteschlangeTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ADT/TestADTSchalnge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BinärBäume/BBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Datenstrukturen/DynArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Datenstrukturen/RPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Generics/FifoGTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Generics/LifoGTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Generics/PaarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/FifoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/KellerspeicherG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/KellerspeicherMitArrayG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/Paar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/PaarSpeicher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/SpeicherG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/WarteschlangeG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/Generics1/WarteschlangeMitArrayG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/LifoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitTests/MenschTest.java" afterDir="false" />
+    <list default="true" id="c83d32a7-1271-40b1-bc8c-9b26c7c5b7b4" name="Changes" comment="BisherigeÜbungen">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/KellerspeicherG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/KellerspeicherMitArrayG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/Paar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/PaarSpeicher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/SpeicherG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/WarteschlangeG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/WarteschlangeMitArrayG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BinaerBaeume/SuchbaumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinärBäume/Binaerbaum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaerBaeume/Binaerbaum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinärBäume/Suchbaum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaerBaeume/Suchbaum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Datenstrukturen/RingPuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datenstrukturen/RingPuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/AbstractIntegerBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/AbstractIntegerBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/Fifo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/Fifo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/IntegerBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/IntegerBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/Lifo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/Lifo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VerketteteListe/WarteschlangeMitEVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/WarteschlangeMitEVL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BinärBäume/BBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BinaerBaeume/BBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Datenstrukturen/RPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Datenstrukturen/RPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Generics/FifoGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Generics/FifoGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Generics/LifoGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Generics/LifoGTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Liams/IdeaProjects/Prog2Uebungen/src/main/java",
+    "last_opened_file_path": "C:/Users/Liams/IdeaProjects/Prog2Uebungen/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,7 +93,30 @@
       <recent name="C:\Users\Liams\IdeaProjects\Prog2Uebungen\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestTest (1)">
+  <component name="RunManager" selected="JUnit.JUnit">
+    <configuration name="BBTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;BinaerBaeume.BBTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Prog2Uebungen" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,6 +132,75 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RPTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Datenstrukturen.RPTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RPTest.testAddRemoveSize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Datenstrukturen.RPTest.testAddRemoveSize&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RPTest.testeRemove" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Datenstrukturen.RPTest.testeRemove&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -165,21 +228,31 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="JUNit" type="JUnit" factoryName="JUnit">
+    <configuration name="JUnit" type="JUnit" factoryName="JUnit">
       <module name="Prog2Uebungen" />
+      <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Gradle.Prog2Uebungen" />
+      <item itemvalue="Gradle.BBTest" />
+      <item itemvalue="Gradle.RPTest" />
+      <item itemvalue="Gradle.RPTest.testAddRemoveSize" />
+      <item itemvalue="Gradle.RPTest.testeRemove" />
       <item itemvalue="Gradle.TestTest (1)" />
-      <item itemvalue="JUnit.JUNit" />
+      <item itemvalue="JUnit.JUnit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RPTest" />
+        <item itemvalue="Gradle.BBTest" />
+        <item itemvalue="Gradle.RPTest.testAddRemoveSize" />
+        <item itemvalue="Gradle.RPTest.testeRemove" />
         <item itemvalue="Gradle.TestTest (1)" />
       </list>
     </recent_temporary>
@@ -194,7 +267,9 @@
       <updated>1651583433367</updated>
       <workItem from="1651583436838" duration="1132000" />
       <workItem from="1651594930189" duration="39000" />
-      <workItem from="1651650450469" duration="1937000" />
+      <workItem from="1651650450469" duration="2725000" />
+      <workItem from="1651667848684" duration="19000" />
+      <workItem from="1651830909762" duration="6578000" />
     </task>
     <task id="LOCAL-00001" summary="Build">
       <created>1651583578947</created>
@@ -210,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651651487984</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BisherigeÜbungen">
+      <created>1651652527798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651652527798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +312,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Build" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="BisherigeÜbungen" />
+    <option name="LAST_COMMIT_MESSAGE" value="BisherigeÜbungen" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Prog2Uebungen$RPTest.ic" NAME="RPTest Coverage Results" MODIFIED="1651837429584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

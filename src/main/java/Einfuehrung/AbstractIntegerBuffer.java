@@ -1,4 +1,4 @@
-package Einführung;
+package Einfuehrung;
 
 public abstract class AbstractIntegerBuffer implements  IntegerBuffer {
     protected int size = 0;         //Platzhalter für die aktuelle Größe des Arrays

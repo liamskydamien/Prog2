@@ -1,4 +1,4 @@
-package Einführung;
+package Einfuehrung;
 
 public interface IntegerBuffer {
     public void push(int i);

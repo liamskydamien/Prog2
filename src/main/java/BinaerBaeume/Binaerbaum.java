@@ -1,4 +1,4 @@
-package BinärBäume;
+package BinaerBaeume;
 
 public class Binaerbaum <T>{
    private T wurzel;

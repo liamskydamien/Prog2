@@ -1,4 +1,4 @@
-package Einführung;
+package Einfuehrung;
 
 public class Lifo extends AbstractIntegerBuffer implements IntegerBuffer{
 

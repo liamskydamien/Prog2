@@ -1,6 +1,6 @@
 package VerketteteListe;
 
-import JUnitTests.Generics1.WarteschlangeG;
+import Generics1.WarteschlangeG;
 
 import java.util.NoSuchElementException;
 
