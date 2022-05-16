@@ -1,4 +1,4 @@
-package BinaerBaeume;
+package BinärBäume;
 
 import java.util.NoSuchElementException;
 
@@ -12,24 +12,39 @@ public class Suchbaum extends Binaerbaum<Integer>{
     }
 
     public boolean contains(int e){
-        if(super.get() == e){
+        if(super.isEmpty()){
+            return false;
+        }
+        else if(super.get() == e){
             return true;
         }
         else{
-            return super.get() < e ? containsRek(e, super.getLeft()) : containsRek(e, super.getRight());
+            if((super.getLeft() == null || super.getLeft().isEmpty()) & super.get() > e){
+                return false;
+            }
+            else if((super.getRight() == null || super.getRight().isEmpty()) & super.get() < e){
+                return false;
+            }
+            return super.get() > e ? containsRek(e, super.getLeft()) : containsRek(e, super.getRight());
         }
     }
 
     private boolean containsRek(int e, Binaerbaum<Integer> p){
-        if(p.get() == e){
-            return true;
+        if(p == null || p.isEmpty()){
+            return false;
         }
         else {
-            if(p.isEmpty()){
-                return false;
+            if(p.get() == e){
+                return true;
             }
             else {
-                return p.get() < e ? containsRek(e, p.getLeft()) : containsRek(e, getRight());
+                if(p.getLeft().isEmpty() & super.get() < e){
+                    return false;
+                }
+                else if(p.getRight().isEmpty() & super.get() > e){
+                    return false;
+                }
+                return p.get() > e ? containsRek(e, p.getLeft()) : containsRek(e, getRight());
             }
         }
 
@@ -40,15 +55,20 @@ public class Suchbaum extends Binaerbaum<Integer>{
             throw new IllegalArgumentException("Wert bereits in Suchbaum.");
         }
         else {
-            if(super.get() == null){
+            if(super.isEmpty()){
                 super.set(e);
             }
             else{
-                if(super.get() < e){
+                if(super.get() > e & super.getLeft() != null){
                     insertRek(e, super.getLeft());
                 }
-                else{
+                else if(super.get() < e & super.getRight() != null){
                     insertRek(e, super.getRight());
+                } else if(super.get() > e & super.getLeft() == null){
+                    super.setLeft(new Binaerbaum(e, null, null));
+                }
+                else if(super.get() < e & super.getRight() == null){
+                    super.setRight(new Binaerbaum(e, null, null));
                 }
             }
         }
@@ -59,11 +79,17 @@ public class Suchbaum extends Binaerbaum<Integer>{
             baum.set(e);
         }
         else {
-            if(baum.get() < e){
+            if(baum.get() > e & baum.getLeft() != null){
                 insertRek(e, baum.getLeft());
             }
-            else {
+            else if(baum.get() < e & baum.getRight() != null){
                 insertRek(e, baum.getRight());
+            }
+            else if(baum.get() > e & baum.getLeft() == null){
+                baum.setLeft(new Binaerbaum(e, null, null));
+            }
+            else if(baum.get() < e & baum.getRight() == null){
+                baum.setRight(new Binaerbaum(e, null, null));
             }
         }
     }
@@ -127,7 +153,7 @@ public class Suchbaum extends Binaerbaum<Integer>{
             if((int) e.getLeft().get() > current.get()){
                 return getHighestRek(e.getLeft().getRight(), e.getLeft());
             } else if ((int) e.getRight().get() > current.get()){
-                    return getHighestRek(e.getRight().getRight(), e.getRight());
+                return getHighestRek(e.getRight().getRight(), e.getRight());
             }
             else if((int) e.get() > current.get()){
                 return e;

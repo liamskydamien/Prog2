@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c83d32a7-1271-40b1-bc8c-9b26c7c5b7b4" name="Changes" comment="BisherigeÜbungen">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/KellerspeicherG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/KellerspeicherMitArrayG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/Paar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/PaarSpeicher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/SpeicherG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/WarteschlangeG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics1/WarteschlangeMitArrayG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BinaerBaeume/SuchbaumTest.java" afterDir="false" />
+    <list default="true" id="c83d32a7-1271-40b1-bc8c-9b26c7c5b7b4" name="Changes" comment="Refactor + RP and Suchbaum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinärBäume/Binaerbaum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaerBaeume/Binaerbaum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinärBäume/Suchbaum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaerBaeume/Suchbaum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datenstrukturen/RingPuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datenstrukturen/RingPuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/AbstractIntegerBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/AbstractIntegerBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/Fifo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/Fifo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/IntegerBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/IntegerBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/Lifo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/Lifo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Einführung/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Einfuehrung/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VerketteteListe/WarteschlangeMitEVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/WarteschlangeMitEVL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BinärBäume/BBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BinaerBaeume/BBTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Datenstrukturen/RPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Datenstrukturen/RPTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Generics/FifoGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Generics/FifoGTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Generics/LifoGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Generics/LifoGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaerBaeume/Suchbaum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaerBaeume/Suchbaum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,23 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Liams/IdeaProjects/Prog2Uebungen/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Liams/OneDrive/Desktop/first&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Liams\IdeaProjects\Prog2Uebungen\src\main\java" />
@@ -269,7 +248,9 @@
       <workItem from="1651594930189" duration="39000" />
       <workItem from="1651650450469" duration="2725000" />
       <workItem from="1651667848684" duration="19000" />
-      <workItem from="1651830909762" duration="6578000" />
+      <workItem from="1651830909762" duration="6743000" />
+      <workItem from="1651838084356" duration="530000" />
+      <workItem from="1651921282759" duration="1380000" />
     </task>
     <task id="LOCAL-00001" summary="Build">
       <created>1651583578947</created>
@@ -292,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651652527798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactor + RP and Suchbaum">
+      <created>1651837845037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651837845037</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +301,8 @@
     <MESSAGE value="Build" />
     <MESSAGE value="Test" />
     <MESSAGE value="BisherigeÜbungen" />
-    <option name="LAST_COMMIT_MESSAGE" value="BisherigeÜbungen" />
+    <MESSAGE value="Refactor + RP and Suchbaum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor + RP and Suchbaum" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Prog2Uebungen$RPTest.ic" NAME="RPTest Coverage Results" MODIFIED="1651837429584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
