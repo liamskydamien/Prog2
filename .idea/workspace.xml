@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d859120d-9893-41de-978e-8e352e2f7407" name="Changes" comment="Refactor + RP and Suchbaum">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProgrammierÜbungen/JosephusProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testeJosephusProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinärBäume/BBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinärBäume/BBTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VerketteteListe/Joesphus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/Joesphus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VerketteteListe/RDVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/RDVL.java" afterDir="false" />
+    <list default="true" id="d859120d-9893-41de-978e-8e352e2f7407" name="Changes" comment="Josephus">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProgrammierÜbungen/TemperaturSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Datenstrukturen/RingPuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datenstrukturen/RingPuffer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +258,7 @@
       <workItem from="1651830909762" duration="6743000" />
       <workItem from="1651838084356" duration="530000" />
       <workItem from="1651921282759" duration="1380000" />
-      <workItem from="1673285790537" duration="2505000" />
+      <workItem from="1673285790537" duration="3621000" />
     </task>
     <task id="LOCAL-00001" summary="Build">
       <created>1651583578947</created>
@@ -294,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651837845037</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Josephus">
+      <created>1673289489321</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673289489321</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +317,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="BisherigeÜbungen" />
     <MESSAGE value="Refactor + RP and Suchbaum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor + RP and Suchbaum" />
+    <MESSAGE value="Josephus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Josephus" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Prog2Uebungen$RPTest.ic" NAME="RPTest Coverage Results" MODIFIED="1651837429584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

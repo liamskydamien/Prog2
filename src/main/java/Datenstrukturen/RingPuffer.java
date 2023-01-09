@@ -5,7 +5,8 @@ public class RingPuffer<T> {
     int front= 0;
     int back= 0;
     T[] array;
-    RingPuffer(int capazity){
+    @SuppressWarnings("unchecked")
+    public RingPuffer(int capazity){
         this.capazity = capazity;
         array = (T[]) new Object[capazity];
     }
