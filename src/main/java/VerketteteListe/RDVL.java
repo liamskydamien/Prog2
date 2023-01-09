@@ -85,6 +85,7 @@ public class RDVL<T>{
         else{
             EVLUnit data = entry;
             entry = null;
+            size--;
             return (T) data.getData();
         }
     }
@@ -102,7 +103,7 @@ public class RDVL<T>{
     }
 
     public boolean isEmpty(){
-        return entry == null ? true : false;
+        return size == 0;
     }
 
     }

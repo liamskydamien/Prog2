@@ -9,17 +9,17 @@ public class Joesphus {
         return helper(kreis, k);
     }
 
-    private static int helper(RDVL kreis, int k){
+    private static int helper(RDVL<Integer> kreis, int k){
         for(int i = 0; i < k; i++){
             kreis.next();
         }
-        int value = (int) kreis.element();
+        int value = kreis.element();
         kreis.remove();
         if(kreis.isEmpty()){
             return value;
         }
         else{
-            return 0 + helper(kreis, k);
+            return helper(kreis, k);
         }
     }
 }

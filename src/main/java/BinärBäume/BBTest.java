@@ -22,7 +22,7 @@ public class BBTest {
     }
 
     @Test
-    public void testeConstructorSizeHöhe(){
+    public void testeConstructorSizeHoehe(){
         Binaerbaum<Integer> Baum1 = new Binaerbaum<>(a[6], null, null);
         Binaerbaum<Integer> Baum2 = new Binaerbaum<>(a[5], null, null);
         Binaerbaum<Integer> Baum3 = new Binaerbaum<>(a[4], null, null);

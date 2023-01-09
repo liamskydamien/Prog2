@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c83d32a7-1271-40b1-bc8c-9b26c7c5b7b4" name="Changes" comment="Refactor + RP and Suchbaum">
+    <list default="true" id="d859120d-9893-41de-978e-8e352e2f7407" name="Changes" comment="Refactor + RP and Suchbaum">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProgrammierÜbungen/JosephusProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testeJosephusProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaerBaeume/Suchbaum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaerBaeume/Suchbaum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinärBäume/BBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinärBäume/BBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VerketteteListe/Joesphus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/Joesphus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VerketteteListe/RDVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VerketteteListe/RDVL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +30,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Prog2Uebungen" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -36,6 +52,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,23 +68,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Liams/OneDrive/Desktop/first&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "F:/Work/projects/Prog2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Liams\IdeaProjects\Prog2Uebungen\src\main\java" />
@@ -72,30 +95,7 @@
       <recent name="C:\Users\Liams\IdeaProjects\Prog2Uebungen\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JUnit">
-    <configuration name="BBTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;BinaerBaeume.BBTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.testeJosephusProblem.teste_5_2">
     <configuration name="Prog2Uebungen" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -115,7 +115,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RPTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="testeJosephusProblem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -128,7 +128,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Datenstrukturen.RPTest&quot;" />
+            <option value="&quot;testeJosephusProblem&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -138,7 +138,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RPTest.testAddRemoveSize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="testeJosephusProblem.teste_5_2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -151,7 +151,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Datenstrukturen.RPTest.testAddRemoveSize&quot;" />
+            <option value="&quot;testeJosephusProblem.teste_5_2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -161,54 +161,26 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RPTest.testeRemove" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;Datenstrukturen.RPTest.testeRemove&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;TestTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="BBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prog2Uebungen.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinärBäume.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BinärBäume" />
+      <option name="MAIN_CLASS_NAME" value="BinärBäume.BBTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="JUnit" type="JUnit" factoryName="JUnit">
       <module name="Prog2Uebungen" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="jbr-17" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="directory" />
@@ -217,29 +189,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Prog2Uebungen.main" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testeJoesphusProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prog2Uebungen.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProgrammierÜbungen" />
+      <option name="MAIN_CLASS_NAME" value="ProgrammierÜbungen.testeJoesphusProblem" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testeJosephusProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prog2Uebungen.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testeJosephusProblem" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Gradle.Prog2Uebungen" />
-      <item itemvalue="Gradle.BBTest" />
-      <item itemvalue="Gradle.RPTest" />
-      <item itemvalue="Gradle.RPTest.testAddRemoveSize" />
-      <item itemvalue="Gradle.RPTest.testeRemove" />
-      <item itemvalue="Gradle.TestTest (1)" />
+      <item itemvalue="Gradle.testeJosephusProblem" />
+      <item itemvalue="Gradle.testeJosephusProblem.teste_5_2" />
+      <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.JUnit" />
+      <item itemvalue="JUnit.BBTest" />
+      <item itemvalue="JUnit.testeJoesphusProblem" />
+      <item itemvalue="JUnit.testeJosephusProblem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RPTest" />
-        <item itemvalue="Gradle.BBTest" />
-        <item itemvalue="Gradle.RPTest.testAddRemoveSize" />
-        <item itemvalue="Gradle.RPTest.testeRemove" />
-        <item itemvalue="Gradle.TestTest (1)" />
+        <item itemvalue="Gradle.testeJosephusProblem.teste_5_2" />
+        <item itemvalue="Gradle.testeJosephusProblem" />
+        <item itemvalue="JUnit.BBTest" />
+        <item itemvalue="JUnit.testeJosephusProblem" />
+        <item itemvalue="JUnit.testeJoesphusProblem" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c83d32a7-1271-40b1-bc8c-9b26c7c5b7b4" name="Changes" comment="" />
+      <changelist id="d859120d-9893-41de-978e-8e352e2f7407" name="Changes" comment="Refactor + RP and Suchbaum" />
       <created>1651583433367</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -251,6 +264,7 @@
       <workItem from="1651830909762" duration="6743000" />
       <workItem from="1651838084356" duration="530000" />
       <workItem from="1651921282759" duration="1380000" />
+      <workItem from="1673285790537" duration="2505000" />
     </task>
     <task id="LOCAL-00001" summary="Build">
       <created>1651583578947</created>
